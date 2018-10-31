@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CreateDatabase", "CreateDatabase\CreateDatabase.ssmssqlproj", "{7048366B-8344-4C17-8E11-D0B3C2105E8D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CreateTables", "CreateTables\CreateTables.ssmssqlproj", "{4690706D-B9FE-406F-B6F9-527E2E7C5FDB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "AlterTable", "AlterTable\AlterTable.ssmssqlproj", "{2238D94B-48BE-4262-8A70-1DC91B3F366B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "InsertRecorsInBothTable", "InsertRecorsInBothTable\InsertRecorsInBothTable.ssmssqlproj", "{E6C74609-C8E4-4B9B-9CF0-452783C3F82B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TruncateTable", "TruncateTable\TruncateTable.ssmssqlproj", "{EB66960E-364F-48CD-BFF7-37D669B80D2E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DropAllTables", "DropAllTables\DropAllTables.ssmssqlproj", "{8BCB27AE-D697-4A6C-A931-B7501C7D3A48}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TableUser", "TableUser\TableUser.ssmssqlproj", "{5B24A45E-CFF3-41E2-8C2A-C6BF7E8D40F3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Movie", "Movie\Movie.ssmssqlproj", "{810FD910-3001-4F9D-A1AE-2D5194FC5D97}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CarRental", "CarRental\CarRental.ssmssqlproj", "{951E7284-A477-4FD8-8EFB-61E511F9C278}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Hotel", "Hotel\Hotel.ssmssqlproj", "{18B0F185-849B-4B43-94A6-436CCCB7C47A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SoftUni", "SoftUni\SoftUni.ssmssqlproj", "{82BE75BA-AB4B-47BD-861E-8A57C29D6997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7048366B-8344-4C17-8E11-D0B3C2105E8D}.Default|Default.ActiveCfg = Default
+		{4690706D-B9FE-406F-B6F9-527E2E7C5FDB}.Default|Default.ActiveCfg = Default
+		{2238D94B-48BE-4262-8A70-1DC91B3F366B}.Default|Default.ActiveCfg = Default
+		{E6C74609-C8E4-4B9B-9CF0-452783C3F82B}.Default|Default.ActiveCfg = Default
+		{EB66960E-364F-48CD-BFF7-37D669B80D2E}.Default|Default.ActiveCfg = Default
+		{8BCB27AE-D697-4A6C-A931-B7501C7D3A48}.Default|Default.ActiveCfg = Default
+		{5B24A45E-CFF3-41E2-8C2A-C6BF7E8D40F3}.Default|Default.ActiveCfg = Default
+		{810FD910-3001-4F9D-A1AE-2D5194FC5D97}.Default|Default.ActiveCfg = Default
+		{951E7284-A477-4FD8-8EFB-61E511F9C278}.Default|Default.ActiveCfg = Default
+		{18B0F185-849B-4B43-94A6-436CCCB7C47A}.Default|Default.ActiveCfg = Default
+		{C0CB1D75-0B91-4D07-9510-60C02996D97A}.Default|Default.ActiveCfg = Default
+		{82BE75BA-AB4B-47BD-861E-8A57C29D6997}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

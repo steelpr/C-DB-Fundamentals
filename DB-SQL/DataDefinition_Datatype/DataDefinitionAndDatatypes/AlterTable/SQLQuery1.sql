@@ -1,0 +1,3 @@
+ALTER TABLE [dbo].[Minions]
+ADD TownId INT CONSTRAINT FK_Towns_Minions FOREIGN KEY REFERENCES Towns(Id)
+

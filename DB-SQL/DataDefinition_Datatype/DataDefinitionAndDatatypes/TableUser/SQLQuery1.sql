@@ -1,0 +1,39 @@
+CREATE TABLE Users(
+Id BIGINT PRIMARY KEY IDENTITY,
+Username VARCHAR(30) NOT NULL UNIQUE,
+[Password] VARCHAR(26) NOT NULL,
+ProfilePicture VARBINARY(MAX),
+LastLoginTime DATETIME,
+IsDeleted BIT
+)
+
+INSERT INTO Users (Username, [Password],ProfilePicture, IsDeleted)
+VALUES
+('Ivan', '244324323', NULL, 1),
+('Petar', '44324234', NULL, 1),
+('Rosen', '2343242323', NULL, 1),
+('Dimo', '2324324233', NULL, 1),
+('Dancho', '42434234343', NULL, 0)
+
+ALTER TABLE Users
+ADD CONSTRAINT CHK_ProfilePicture CHECK (DATALENGTH(ProfilePicture) <= 900 * 1024)
+
+ALTER TABLE Users
+DROP CONSTRAINT PK__Users__3214EC075E10EA00
+
+ALTER TABLE Users
+ADD CONSTRAINT PK_Users PRIMARY KEY (Id, Username)
+
+ALTER TABLE Users
+ADD CONSTRAINT CHK_Password CHECK (LEN([Password]) >= 5)
+
+ALTER TABLE Users 
+ADD DEFAULT GETDATE() FOR LastLoginTime
+
+ALTER TABLE Users
+DROP CONSTRAINT PK_Users
+
+ALTER TABLE Users
+ADD CONSTRAINT CHK_UsernameLength CHECK(LEN(Username) >= 3)
+
+
